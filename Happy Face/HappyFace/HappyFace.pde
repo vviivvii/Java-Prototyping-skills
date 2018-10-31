@@ -30,12 +30,6 @@ line(width/4, height*3/4, width*3/4, height*3/4);//mouth
 fill(255,0,0); //QuitButton
 rect(width*14/16, height*0/16, width*4/16, height*1/16);
 fill(0,0,0);//text colour
+textSize(6);
 text("Quit", width*15/16, height*1/32);
-}
-void mousePressed() {
-  loop();  // Holding down the mouse activates looping
-}
-
-void mouseReleased() {
-  noLoop();  // Releasing the mouse stops looping draw()
 }
