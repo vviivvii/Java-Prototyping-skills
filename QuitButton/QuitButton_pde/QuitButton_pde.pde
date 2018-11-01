@@ -18,7 +18,7 @@ void draw() {
     fill(hoverOverButton);
     rect(width*13/16, height*0/16, width*4/16, height*1/16);
     fill(0, 0, 0);
-    textSize(10);
+    textSize(12);
     text("are you sure?", width*27/32, height*1/32);
   } else {
     fill(regularButton);
