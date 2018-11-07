@@ -19,7 +19,7 @@ void setup() {
 }
 
 void draw() {
-    strokeWeight(1);
+  strokeWeight(1);
   faceX = width/2;
   faceY= height/2;
   leftEyeX = width/4;
@@ -29,7 +29,7 @@ void draw() {
   eyeDiameter = width/8;
   fill(255, 0, 0); //Measles
   ellipse(random(width), random(height), width*1/75, width*1/75);
-  fill(255,0,0);
+  fill(255, 0, 0);
   ellipse(random(width), random(height), width*1/75, width*1/75);
   fill(255, 0, 0);
   ellipse(random(width), random(height), width*1/75, width*1/75);//Last Measles
