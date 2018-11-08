@@ -4,6 +4,10 @@ color blue = #0000FF;
 color regularButton = red;
 color hoverOverButton = blue;
 
+void quitButtonSetup() {
+  size(500, 600);
+}
+
 void quitButtonDraw() {
   println("Mousex:", mouseX, "\tMouseY:", mouseY);
   fill(regularButton);
