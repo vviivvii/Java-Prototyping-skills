@@ -1,5 +1,5 @@
 //Global Varables
-String title = "Okay"; 
+String title = "Snowperson"; 
 PFont titleFont; //To list all fonts available on system
 //String[] fontList = PFont.list();
 color purple = #FA00F5;
