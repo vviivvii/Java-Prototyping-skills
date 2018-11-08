@@ -18,13 +18,13 @@ void quitButtonDraw() {
     fill(hoverOverButton);
     rect(width*13/16, height*0/16, width*4/16, height*1/16);
     fill(0, 0, 0);
-    textSize(12);
-    text("are you sure?", width*27/32, height*1/32);
+    textFont(titleFont, 15);
+    text("are you sure?", width*29/32, height*1/32);
   } else {
     fill(regularButton);
     rect(width*13/16, height*0/16, width*4/16, height*1/16);
     fill(0, 0, 0);
-    textSize(13);
+    textFont(titleFont, 18);
     text("Quit", width*14/16, height*1/32);
   }
 }
