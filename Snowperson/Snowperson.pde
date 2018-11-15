@@ -1,13 +1,10 @@
-PImage pic;
+//Global Varibles
 PImage pic2;
-
 
 void setup() {
   size (500, 600);
-  //pic = loadImage("maxresdefault.jpg"); //Dimensions: 1280 width, 720 height
   pic2= loadImage("snow-hill-12.jpg"); //Dimensions: 1024 width, 683 height 
 
-  //image(pic, width*0, height*0, width*1, height*0.738888);
   image(pic2, width*0, height*0, width*1, height*1);
 
   textsetup();
