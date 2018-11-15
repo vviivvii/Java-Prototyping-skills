@@ -5,7 +5,6 @@ PFont titleFont; //To list all fonts available on system
 color purple = #FA00F5;
 
 void textsetup() {
-  size (500, 600);
   //println("Start of Console");
   //printArray(fontList); //For listing all possible fonts to choose, then createFont
   titleFont = createFont ("Javanese Text", 48);//Must also tools/ Create Font/ Find Font
